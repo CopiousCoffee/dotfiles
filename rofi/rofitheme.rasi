@@ -1,0 +1,40 @@
+configuration {
+    show-icons: true;
+    drun-icon-theme: "deepin";
+}
+* {
+    selected-normal-text: rgba ( 255, 255, 255, 85 % );
+    text-color: rgba ( 255, 255, 255, 85 % );
+    normal-foreground: @foreground;
+    background: rgba ( 40, 47, 57, 85 % );
+    alternate-normal-foreground: @foreground;
+    selected-normal-cursor: rgba ( 133, 103, 143, 85 % );
+    background-color: rgba ( 0, 0, 0, 0 % );
+    columns: 2;
+}
+#window {
+    background-color: @background;
+    border: 1;
+    padding: 5;
+    font: "Dejavu Sans 10";
+}
+#mainbox {
+    border: 0;
+    padding: 3.5;
+}
+#listview {
+    spacing: 2px ;
+    scrollbar: false;
+    padding: 2px 2px 2px ;
+}
+#element {
+    border: 0;
+    padding: 2.5px ;
+}
+#element.selected.normal {
+    background-color: @selected-normal-cursor;
+    text-color: @selected-normal-text;
+}
+#sidebar {
+    border:       2px dash 0px 0px ;
+} 
