@@ -8,7 +8,7 @@ configuration {
     normal-foreground: @foreground;
     background: rgba ( 40, 47, 57, 85 % );
     alternate-normal-foreground: @foreground;
-    selected-normal-cursor: rgba ( 133, 103, 143, 85 % );
+    selected-normal-cursor: rgba ( 123, 68, 151, 85 % );
     background-color: rgba ( 0, 0, 0, 0 % );
     columns: 2;
 }
@@ -37,4 +37,4 @@ configuration {
 }
 #sidebar {
     border:       2px dash 0px 0px ;
-} 
+}
